@@ -1,0 +1,170 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ex_nahilo"
+	group: "532D21B14C1CD158"
+	id: "64541BF3FA881F6F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27FF8204F7A7EDA1"]
+			icon: "exnihilosequentia:oak_sieve"
+			id: "5D07711CCF13624F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1CBB7966DF576566"
+				title: "Unlock Ex Nilhilo"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D07711CCF13624F"]
+			id: "12837DFD1E48225B"
+			tasks: [{
+				id: "20D77C0FA0F42195"
+				item: "exnihilosequentia:oak_sieve"
+				type: "item"
+			}]
+			title: "Craft A Oak Sieve"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D07711CCF13624F"]
+			id: "400BDC38C6E76692"
+			tasks: [{
+				id: "0137F65B2F401FD0"
+				item: {
+					Count: 1b
+					id: "exnihilosequentia:wooden_crook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft A Wooden Crook"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D07711CCF13624F"]
+			id: "4B5651F24794C2B7"
+			tasks: [{
+				id: "37D15321532E3FD6"
+				item: "exnihilosequentia:oak_barrel"
+				type: "item"
+			}]
+			title: "Craft A Oak Barrel"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D07711CCF13624F"]
+			id: "2D35CFD3855F1629"
+			tasks: [{
+				id: "3B651A966174D57C"
+				item: "exnihilosequentia:oak_crucible"
+				type: "item"
+			}]
+			title: "Craft A Oak Crucible"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "3D9708C4B24FFB2A"
+			tasks: [{
+				count: 6L
+				id: "62A351F37566F8A0"
+				item: "minecraft:oak_leaves"
+				type: "item"
+			}]
+			title: "Collect Oak Leaves"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3D9708C4B24FFB2A"
+				"400BDC38C6E76692"
+			]
+			id: "70C9C40E126DB496"
+			subtitle: "Use the crook on some leaves to get some silk worms!"
+			tasks: [{
+				id: "30E48BFB8AD0B6E0"
+				item: "exnihilosequentia:silkworm"
+				type: "item"
+			}]
+			title: "Get A Silkworm"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3D9708C4B24FFB2A"
+				"2D35CFD3855F1629"
+			]
+			id: "5A391C754B7AB760"
+			tasks: [{
+				id: "521D464562EB928E"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "Collect A Bucket Of Water"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3D9708C4B24FFB2A"
+				"4B5651F24794C2B7"
+			]
+			description: ["Fun Fact: You can use a hammer on wood to get wood chips, which then can be used in the barrel for compost!"]
+			id: "48590AA1EAB63908"
+			subtitle: "Use the leaves in the barrel to get some dirt!"
+			tasks: [{
+				count: 8L
+				id: "0378272534BE62AA"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "Collect Dirt"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"70C9C40E126DB496"
+				"3D9708C4B24FFB2A"
+			]
+			id: "29FA592ED6BAD25A"
+			subtitle: "Use the crook on the leaves after they are infected and you will get string!"
+			tasks: [{
+				count: 9L
+				id: "44EFBB73663CC8CC"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "Collect String"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29FA592ED6BAD25A"]
+			id: "55D9C7D80F324CCD"
+			tasks: [{
+				id: "7C47A0552BA29B4D"
+				item: "exnihilosequentia:string_mesh"
+				type: "item"
+			}]
+			title: "Make A String Mesh"
+			x: 2.5d
+			y: -3.0d
+		}
+	]
+	title: "Ex Nihilo"
+}

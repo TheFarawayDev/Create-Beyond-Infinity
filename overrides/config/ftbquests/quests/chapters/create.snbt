@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "5825EF390D655384"
+	id: "3E315457AEAF0EA5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["0D223B68A400F328"]
+		icon: "create:andesite_alloy"
+		id: "4320672C7A1FE0C9"
+		shape: "gear"
+		size: 1.5d
+		tasks: [
+			{
+				icon: {
+					Count: 1b
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "7B18819C958479EE"
+				title: "Make Andesite Alloy"
+				type: "custom"
+			}
+			{
+				id: "73FB83D30C98CD07"
+				title: "Unlock Create"
+				type: "checkmark"
+			}
+		]
+		x: -1.0d
+		y: 0.0d
+	}]
+	title: "Create"
+}

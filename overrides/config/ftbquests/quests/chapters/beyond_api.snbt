@@ -1,0 +1,185 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beyond_api"
+	group: "532D21B14C1CD158"
+	id: "4C3BACDC66A5BFB9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4BB6E9438A058ADC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "613956F75315FA40"
+				title: "Start BeyondAPI"
+				type: "checkmark"
+			}]
+			title: "Unlock Beyond API"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BB6E9438A058ADC"]
+			id: "32E94704BD48805B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14DE72AA1AE7B14C"
+				table_id: 379310718620472524L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FD4A26E0C7C0DEF"
+				item: "beyondapi:tier_1_resource_arc"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BB6E9438A058ADC"]
+			id: "35922BDF0CCC2265"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AAC5CC5F715A317"
+				table_id: 379310718620472524L
+				type: "random"
+			}]
+			tasks: [{
+				id: "68A6198BE3D8C932"
+				item: "beyondapi:tier_1_data_creator"
+				type: "item"
+			}]
+			title: "Create A Data Creator"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35922BDF0CCC2265"]
+			id: "2A94ADC3460162F0"
+			rewards: [{
+				id: "7576B5CB33101EBF"
+				item: "beyondapi:zinc_resource_chip"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "325AA232C8A23258"
+					item: "beyondapi:zinc_ingot"
+					type: "item"
+				}
+				{
+					id: "59F810C1AC73FF1F"
+					item: "beyondapi:zinc_resource_chip"
+					type: "item"
+				}
+			]
+			title: "Create Zinc Data Chip"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35922BDF0CCC2265"]
+			id: "084472AFCCDBCE23"
+			rewards: [{
+				id: "3945D229CACC1FA0"
+				item: "beyondapi:iron_resource_chip"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "420890CEC44A0D6E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "7F6D79DA51999B4C"
+					item: "beyondapi:iron_resource_chip"
+					type: "item"
+				}
+			]
+			title: "Create Iron Data Chip"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35922BDF0CCC2265"]
+			id: "6A1D4715441A2DA7"
+			rewards: [{
+				id: "72A718C90173F9EF"
+				item: "beyondapi:brass_resource_chip"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "6EE3BFF06B898B0B"
+					item: "beyondapi:brass_item"
+					type: "item"
+				}
+				{
+					id: "20756B2E89249B45"
+					item: "beyondapi:brass_resource_chip"
+					type: "item"
+				}
+			]
+			title: "Create Brass Data Chip"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35922BDF0CCC2265"]
+			id: "0EEA244CCD33B36F"
+			rewards: [{
+				id: "086DADF7639A967F"
+				item: "beyondapi:andesite_resource_chip"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "4AAE4E77E5373226"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "68E6EA376004C9CB"
+					item: "beyondapi:andesite_resource_chip"
+					type: "item"
+				}
+			]
+			title: "Create Andesite Data Chip"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35922BDF0CCC2265"]
+			id: "63B0057EB5B0E2E4"
+			rewards: [{
+				id: "0E2203086F12783E"
+				item: "beyondapi:coal_resource_chip"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "26C06F5FAF4EBCBE"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "78571662DC3FB057"
+					item: "beyondapi:coal_resource_chip"
+					type: "item"
+				}
+			]
+			title: "Create Coal Data Chip"
+			x: 2.0d
+			y: -3.5d
+		}
+	]
+	title: "Beyond API"
+}

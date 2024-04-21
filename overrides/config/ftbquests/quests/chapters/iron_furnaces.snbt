@@ -1,0 +1,448 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furnaces"
+	group: "5825EF390D655384"
+	id: "372B4DA86AC4416F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["70E544AD6C11B561"]
+			id: "2681595341C591F8"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "02FCF9CB699514BF"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "0446FED257AC389C"
+					title: "Unlock Iron Furnaces"
+					type: "checkmark"
+				}
+			]
+			title: "Make A Furnace"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E8EDE05E4783CA4"
+				"16A606B6293568AC"
+			]
+			id: "4345A4A4E3568C1D"
+			tasks: [{
+				id: "0F3366AA11F7EF08"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			title: "Make A Iron Furnace"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"2681595341C591F8"
+				"2D980DBB5D32E37B"
+			]
+			id: "2E8EDE05E4783CA4"
+			tasks: [{
+				id: "1B4FA92407A9289B"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			title: "Make A Copper Furnace"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4345A4A4E3568C1D"
+				"21193622CA44C23E"
+			]
+			id: "3FA0C820D43DD415"
+			tasks: [{
+				id: "1963075B1DE41BA2"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			title: "Make A Gold Furnace"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3FA0C820D43DD415"
+				"6E6EF72E4D89895C"
+			]
+			id: "46FB7EBB2A580E1B"
+			tasks: [{
+				id: "1A2F408AD49CE2D5"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			title: "Make A Diamond Furnace"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7581398247029534"
+				"46FB7EBB2A580E1B"
+			]
+			id: "22B576664E36C44B"
+			tasks: [{
+				id: "59F7E5761BA7B6B0"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			title: "Make A Emerald Furnace"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"678B715D9EC97FA2"
+				"22B576664E36C44B"
+			]
+			id: "05175F670653E739"
+			tasks: [{
+				id: "16460474F07D0B60"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			title: "Make A Obsidian Furnace"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6127ACE2B092DD08"]
+			hide_dependency_lines: true
+			id: "7581398247029534"
+			tasks: [{
+				count: 8L
+				id: "4071F16CF3C2DBA6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Collect Emeralds"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A3DEDC64E5C5BBA"]
+			hide_dependency_lines: true
+			id: "678B715D9EC97FA2"
+			tasks: [{
+				count: 8L
+				id: "37B2D701BD3806FA"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Collect Or Make Obsidian"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"05175F670653E739"
+				"16343C8FAB8C4F7A"
+			]
+			id: "63EDB9F0CA34AB9E"
+			tasks: [{
+				id: "53564309056EFAB6"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			title: "Make A Netherite Furnace"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6127ACE2B092DD08"]
+			id: "6E6EF72E4D89895C"
+			tasks: [{
+				count: 8L
+				id: "16FCDAC25320AB29"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Collect Diamonds"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D91337B5D36FB60"]
+			id: "16A606B6293568AC"
+			tasks: [{
+				count: 8L
+				id: "5CE8D0E77F5EFBDA"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Collect Iron"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6127ACE2B092DD08"]
+			id: "21193622CA44C23E"
+			tasks: [{
+				count: 8L
+				id: "2C0809151A6FD177"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Collect Gold"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D91337B5D36FB60"]
+			id: "2D980DBB5D32E37B"
+			tasks: [{
+				count: 8L
+				id: "153466C8D875ABCA"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Collect Copper"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A3DEDC64E5C5BBA"]
+			id: "16343C8FAB8C4F7A"
+			tasks: [{
+				id: "0B93F55677ECF997"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Make A Netherite Ingot"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7281EFB4056B3E61"]
+			id: "34CEB70E00467561"
+			optional: true
+			tasks: [{
+				id: "39D8D5F7F26AAE6A"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4D91337B5D36FB60"]
+			id: "7281EFB4056B3E61"
+			tasks: [{
+				count: 8L
+				id: "46A670759609ABED"
+				item: "immersiveengineering:ingot_silver"
+				type: "item"
+			}]
+			title: "Collect Silver Ingots"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			id: "38650EBC5B0ADD1E"
+			tasks: [{
+				count: 7L
+				id: "59DDA497A705CD05"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			title: "Make Glass"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"38650EBC5B0ADD1E"
+				"7B0CEF1ADD3FB63B"
+				"7254EE98C96D43FB"
+			]
+			id: "4D493A0D494628EB"
+			optional: true
+			tasks: [{
+				id: "5E0D9A8F0ECD8C73"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			title: "Make A Crystal Furnace"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "7B0CEF1ADD3FB63B"
+			tasks: [{
+				id: "44EA7A475F54EE58"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Make A Eye Of Ender"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E6EF72E4D89895C"]
+			hide_dependency_lines: true
+			id: "7254EE98C96D43FB"
+			tasks: [{
+				id: "47EE4B98C337D43F"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			title: "Make A Diamond Furnace"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2E8EDE05E4783CA4"
+				"4D493A0D494628EB"
+				"7254EE98C96D43FB"
+				"22B576664E36C44B"
+				"3FA0C820D43DD415"
+				"4345A4A4E3568C1D"
+			]
+			hide_dependency_lines: true
+			id: "6B4FA63F32629D95"
+			shape: "square"
+			tasks: [{
+				id: "7F85774F448CD646"
+				item: "ironfurnaces:rainbow_plating"
+				type: "item"
+			}]
+			title: "Make Rainbow Plating"
+			x: 6.75d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"63EDB9F0CA34AB9E"
+				"4171E097739ABF16"
+				"2CA1F910B351279E"
+				"3B542CAC7DC2B88D"
+				"4D894C21DBD21CDA"
+				"2F0DDEB279DE81C1"
+				"6A90BCCFAEBA35B9"
+				"0AEDADD0DE0E676E"
+			]
+			hide_dependency_lines: true
+			id: "684E677953166FBC"
+			shape: "square"
+			tasks: [{
+				id: "5C740BCC9AE8F003"
+				item: "ironfurnaces:rainbow_core"
+				type: "item"
+			}]
+			title: "Make A Rainbow Core"
+			x: 6.75d
+			y: -4.5d
+		}
+		{
+			id: "0AEDADD0DE0E676E"
+			tasks: [{
+				id: "616E8760B78085D8"
+				item: "minecraft:yellow_stained_glass"
+				type: "item"
+			}]
+			x: 6.75d
+			y: -3.0d
+		}
+		{
+			id: "4D894C21DBD21CDA"
+			tasks: [{
+				id: "72C3E787BFD49C5F"
+				item: "minecraft:orange_stained_glass"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -4.5d
+		}
+		{
+			id: "6A90BCCFAEBA35B9"
+			tasks: [{
+				id: "219DB1A59178EB83"
+				item: "minecraft:red_stained_glass"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -6.0d
+		}
+		{
+			id: "2CA1F910B351279E"
+			tasks: [{
+				id: "20E01BEBE84B0092"
+				item: "minecraft:green_stained_glass"
+				type: "item"
+			}]
+			x: 9.75d
+			y: -6.0d
+		}
+		{
+			id: "2F0DDEB279DE81C1"
+			tasks: [{
+				id: "559391AA064BDA99"
+				item: "minecraft:purple_stained_glass"
+				type: "item"
+			}]
+			x: 9.75d
+			y: -4.5d
+		}
+		{
+			id: "4171E097739ABF16"
+			tasks: [{
+				id: "270EB0573DE9707B"
+				item: "minecraft:blue_stained_glass"
+				type: "item"
+			}]
+			x: 9.75d
+			y: -3.0d
+		}
+		{
+			id: "3B542CAC7DC2B88D"
+			tasks: [{
+				id: "78B789627A74FCD3"
+				item: "minecraft:magenta_stained_glass"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"684E677953166FBC"
+				"684E677953166FBC"
+			]
+			hide_dependency_lines: true
+			id: "7D7C63804CDC4F0D"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1A53B4B583F4AB8F"
+				item: {
+					Count: 1b
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"yellow\",\"text\":\"R\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"i\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"b\"},{\"color\":\"light_purple\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"light_purple\",\"text\":\" \"},{\"color\":\"red\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"aqua\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Make A Rainbow Furnace"
+			x: 4.5d
+			y: -6.0d
+		}
+	]
+	title: "Iron Furnaces"
+}
