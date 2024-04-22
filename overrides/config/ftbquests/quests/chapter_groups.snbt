@@ -1,8 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "7A27C5AF1BE473C1", title: "Main Questline" }
-		{ id: "1956E0E8EFD29B19", title: "Storage" }
-		{ id: "5825EF390D655384", title: "Technology" }
-		{ id: "532D21B14C1CD158", title: "Resource Generation" }
-	]
-}
